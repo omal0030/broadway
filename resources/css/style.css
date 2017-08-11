@@ -5,8 +5,10 @@ html {
 header {
   background-image: url("../images/the-flatiron-building.png");
   background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
-h1 {
+  h1 {
     font-size: 70px;
     font-weight: bold;
     color: white;
@@ -15,6 +17,20 @@ h1 {
     font-size: 32px;
     font-weight: bold;
   }
+  a { /* Added so that the links remain white after they have been selected.*/
+    color:inherit;
+  }
+  h4 {
+    font-size: 18px;
+    color: white;
+  }
+  .designed {
+    background-image: url("../images/the-flatiron-building.png");
+    background-position: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+  }
   h3 {
     font-size: 23px;
     font-weight: bold;
@@ -22,9 +38,15 @@ h1 {
   p {
     font-size: 14px;
   }
-.footer {
+.footer a {
   font-size: 18px;
   color: white;
   background-color: dimgray;
   text-align: left;
+ }
+ .footer p { /* Added so that the copyright is a different size.*/
+   font-size: 11px;
+   color: white;
+   background-color: dimgray;
+   text-align: left;
  }
